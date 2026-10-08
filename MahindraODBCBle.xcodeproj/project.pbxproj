@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222257B39E667B4420B385D3 /* BleSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236105BC7FBA2764D8183681 /* BleSession.swift */; };
+		45EDC01E7E8BEA72065682A2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346039B40BEFF22C5D62AD27 /* RootView.swift */; };
+		7CCF661D75420E9AE800F0C6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0014FE413B84C7886DF7F13F /* Models.swift */; };
+		7DBC18F33344ABCCAE5AA0BC /* ObdResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C0E5A26093447E9149B2A /* ObdResponse.swift */; };
+		810549205D5EDF49AFF07A0B /* ScorpioCodesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276C61B6287853E20D955F0 /* ScorpioCodesApp.swift */; };
+		99AB34E4DC7910FFA185E743 /* FaultCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1BF2B47C297244C4735196 /* FaultCatalog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0014FE413B84C7886DF7F13F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		181D68BA453D0F4C4C2D4E0A /* ScorpioCodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScorpioCodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		236105BC7FBA2764D8183681 /* BleSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleSession.swift; sourceTree = "<group>"; };
+		264C0E5A26093447E9149B2A /* ObdResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObdResponse.swift; sourceTree = "<group>"; };
+		346039B40BEFF22C5D62AD27 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F276C61B6287853E20D955F0 /* ScorpioCodesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorpioCodesApp.swift; sourceTree = "<group>"; };
+		FE1BF2B47C297244C4735196 /* FaultCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaultCatalog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		165BBD4ACDFDD325C400C0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181D68BA453D0F4C4C2D4E0A /* ScorpioCodes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21BB3C8B29524AF0889D888F /* OBDCore */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BF2B47C297244C4735196 /* FaultCatalog.swift */,
+				0014FE413B84C7886DF7F13F /* Models.swift */,
+				264C0E5A26093447E9149B2A /* ObdResponse.swift */,
+			);
+			path = OBDCore;
+			sourceTree = "<group>";
+		};
+		224F9979EC05E4CE07F96B45 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				236105BC7FBA2764D8183681 /* BleSession.swift */,
+				346039B40BEFF22C5D62AD27 /* RootView.swift */,
+				F276C61B6287853E20D955F0 /* ScorpioCodesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6193D9F70F684FAA91ABDC7B = {
+			isa = PBXGroup;
+			children = (
+				224F9979EC05E4CE07F96B45 /* App */,
+				8DB306C056621B8D403DCEEE /* Sources */,
+				165BBD4ACDFDD325C400C0DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB306C056621B8D403DCEEE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				21BB3C8B29524AF0889D888F /* OBDCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29CFA81FD38253C9B47F1886 /* ScorpioCodes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C231595E58ADB4B1EDBD0E /* Build configuration list for PBXNativeTarget "ScorpioCodes" */;
+			buildPhases = (
+				78D6E749F28467ADA1EB7FA4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScorpioCodes;
+			packageProductDependencies = (
+			);
+			productName = ScorpioCodes;
+			productReference = 181D68BA453D0F4C4C2D4E0A /* ScorpioCodes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B97CB245A19AB1233391E77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 759352C5F19C918E2383CC47 /* Build configuration list for PBXProject "MahindraODBCBle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6193D9F70F684FAA91ABDC7B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 165BBD4ACDFDD325C400C0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29CFA81FD38253C9B47F1886 /* ScorpioCodes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78D6E749F28467ADA1EB7FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222257B39E667B4420B385D3 /* BleSession.swift in Sources */,
+				99AB34E4DC7910FFA185E743 /* FaultCatalog.swift in Sources */,
+				7CCF661D75420E9AE800F0C6 /* Models.swift in Sources */,
+				7DBC18F33344ABCCAE5AA0BC /* ObdResponse.swift in Sources */,
+				45EDC01E7E8BEA72065682A2 /* RootView.swift in Sources */,
+				810549205D5EDF49AFF07A0B /* ScorpioCodesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		464B092FE832264D18159ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaanvdmerwe.ScorpioCodes;
+				PRODUCT_NAME = ScorpioCodes;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		495C75B45085F8D29F5B2612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		92FF2D42800EC3F62B07C71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liaanvdmerwe.ScorpioCodes;
+				PRODUCT_NAME = ScorpioCodes;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC1E912BF17918793FC318C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759352C5F19C918E2383CC47 /* Build configuration list for PBXProject "MahindraODBCBle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1E912BF17918793FC318C3 /* Debug */,
+				495C75B45085F8D29F5B2612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6C231595E58ADB4B1EDBD0E /* Build configuration list for PBXNativeTarget "ScorpioCodes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464B092FE832264D18159ED5 /* Debug */,
+				92FF2D42800EC3F62B07C71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B97CB245A19AB1233391E77 /* Project object */;
+}
